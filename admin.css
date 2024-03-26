@@ -1,0 +1,214 @@
+@font-face {
+    font-family:heading;
+    src: url(fonts/Lora-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:write-up;
+    src: url(fonts/CormorantGaramond-Regular.ttf);
+  }
+
+.relevant{
+    color:rgb(129, 0, 127);
+    color:#d7ba89;
+    color:#b9a7bb;
+    color:rgb(55, 52, 53);
+
+    color:#b9a7bb;
+    color:#323b36;
+    color:#616c59;
+    
+}
+
+
+
+/*------------------------------- body -------------------------------------------*/
+body{
+    padding:0;
+          margin:0;
+          width:100%;
+          height:100%;
+       }
+  
+  
+  
+  
+  /*-------------------------------NAvigation -----------------------------------------*/
+  .onscroll-function{
+    display:flex;
+    width:100%;
+    background-color:rgb(129, 0, 127);
+    justify-content: center;
+    
+  
+  }
+  .pc-nav-container{
+    background-color:rgb(129, 0, 127);
+    position:fixed ;
+    width: 100%;
+    z-index: 999;
+    
+   
+  }
+          .pc-header{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 2%;
+            
+          }
+          .logo-div{
+            margin-right: auto;
+          }
+          .logo{
+            width: 150px;
+            cursor:pointer;
+            margin-right: auto;
+          }
+          
+          
+          li,a,button{
+            text-transform: uppercase;
+            font-family: write-up;
+            font-weight:bold;
+            font-size: 16px;
+            text-decoration: none;
+            letter-spacing: 2px;
+          
+            
+            
+          }
+          .text-effect,.effect{   line-height: 1.2em;
+            color: #ffffff00;
+            text-shadow:0 0 #ffffff, 0 1.2em #d7ba89; ;
+            overflow: hidden;
+            transition: 0.3s;}
+        
+          
+          
+          .nav-links{
+            list-style: none;
+          }
+          .nav-links li{
+            display: inline-block;
+            padding: 0px 10px;
+          }
+          
+          .nav-links li a {
+            
+            transition:  0.3s;
+          
+          }
+          .text-effect .effect:hover{
+            font-weight: bolder;
+            text-shadow: 0 -1.2em #000, 0 0 #d7ba89;
+  
+          }
+          button{
+            color: rgb(255, 255, 255);
+            padding: 9px 25px;
+            background-color:#d7ba89;
+            border: none;
+            border-radius: 50px;
+            cursor:pointer ;
+            transition: all 0.3s ease 0s;
+          
+          }
+          
+          button:hover{
+            color: rgb(255, 255, 255);
+            background-color: #b9a7bb;
+          }
+  /*-------------------------------adminlogin----------------------------------------*/
+.form-container{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin-top: 250px;
+
+}
+
+
+.form-container form{
+margin-top: ;
+background-color: #ffffff;
+width: 400px;
+box-shadow: 2px 2px 12px black;
+display: grid;
+grid-template-columns: repeat(1,0fr);
+gap: 10px;
+justify-content: center;
+border-radius: 10px;
+}
+.form-container form h3{
+font-size: 30px;
+text-align: center;
+justify-self: center;
+text-transform: capitalize;
+font-family: write-up;
+font-weight: bolder;
+color:rgb(129, 0, 127);
+letter-spacing: 1px;
+width: 100px;
+
+
+}
+.form-container form button{
+width: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+
+  /*-------------------------------footer ---------------------------------------*/
+footer{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #f1f1ed;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .footer-div{
+  display: grid;
+  grid-template-columns: repeat(3,0fr);
+  height: 100px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+    gap:250px;
+  
+  }
+  .footer-div-write-up{
+    font-family: write-up;
+    font-weight: bold;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .icons-link-div{
+    font-family: write-up;
+    font-weight: bold;
+    font-size: 16px;
+    width: 300px;
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(4,0fr);
+  }
+  
+  .icons2{
+    width: 25px;
+    transition: 1s ease;
+  }
+  .icons2:hover{
+  width: 30px;
+  }
